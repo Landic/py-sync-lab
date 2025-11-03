@@ -7,7 +7,7 @@ def run():
         a, b = int(sys.argv[1]), int(sys.argv[2])
     else:
         a, b = 10, 20
-    print(f"a+b={add(a,b)}")
+    print(f"SUM={add(a,b)}")
 
 if __name__ == "__main__":
     run()
