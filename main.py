@@ -1,8 +1,9 @@
+def add(a, b): return a + b
+
 def run():
-    a = 10
-    b = 20
-    c = a + b
-    print(f"a+b={c}")
+    a, b = 10, 20
+    print(f"a+b={add(a,b)}")
+
 
 if __name__ == "__main__":
     run()
