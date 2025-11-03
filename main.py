@@ -1,9 +1,13 @@
+import sys
+
 def add(a, b): return a + b
 
 def run():
-    a, b = 10, 20
+    if len(sys.argv) >= 3:
+        a, b = int(sys.argv[1]), int(sys.argv[2])
+    else:
+        a, b = 10, 20
     print(f"a+b={add(a,b)}")
-
 
 if __name__ == "__main__":
     run()
