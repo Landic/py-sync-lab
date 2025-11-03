@@ -1,1 +1,1 @@
-printf("\n# just a comment\n")
+just a comment
