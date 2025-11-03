@@ -1,6 +1,6 @@
 import sys
 
-def add(a, b): return a + b
+def add(a, b): return a - b
 
 def run():
     if len(sys.argv) >= 3:
@@ -8,6 +8,7 @@ def run():
     else:
         a, b = 10, 20
     print(f"a+b={add(a,b)}")
+    print(f"DIFF={sub(a,b)}")
 
 if __name__ == "__main__":
     run()
